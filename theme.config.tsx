@@ -27,7 +27,7 @@ const config: DocsThemeConfig = {
       <meta property="og:description" content={meta.description} />
       <meta property="og:title" content={meta.title} key="title"/>
       <meta property="og:image" content={meta.image} />
-      <link rel="icon" href="/favicon.ico" />
+      <link rel="icon" href="/favicon1.ico" />
     </>
   ),
 }
