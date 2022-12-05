@@ -1,15 +1,21 @@
 {
-  "index": "Introduction",
-  "another": "Another Page",
-  "advanced": "Advanced (A Folder)",
-  "about": {
-    "title": "About",
-    "type": "page"
+  "index": {
+    "title":"About",
+    "type":"page"
   },
-  "contact": {
-    "title": "Contact ↗",
+  "portfolios":{
+    "title":"Portfolios",
+    "type":"page"
+  },
+  "posts":{
+    "title":"Posts",
+    "type":"page"
+  },
+
+  "resume": {
+    "title": "Resume ↗",
     "type": "page",
-    "href": "https://twitter.com/shuding_",
+    "href": "/resume",
     "newWindow": true
   }
 }
