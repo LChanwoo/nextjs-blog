@@ -19,7 +19,7 @@ const config: DocsThemeConfig = {
   // chat: {
   //   link: 'https://discord.com',
   // },
-  docsRepositoryBase: 'https://github.com/shuding/nextra-docs-template',
+  docsRepositoryBase: 'https://github.com/LChanwoo/nextjs-blog/tree/main/',
   footer: {
     text: `${YEAR}@Chanwoo Aldrich Lee, All rights reserved.`,
   },
@@ -38,6 +38,9 @@ const config: DocsThemeConfig = {
   ),
   sidebar:{
     defaultMenuCollapseLevel: 0,
+  },
+  feedback: {
+    content: undefined
   }
 }
 
