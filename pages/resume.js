@@ -47,7 +47,7 @@ export default ({ blockMap })=>{
                 <small style={{display:"block",marginTop:"8rem"}}>
                     <time >{YEAR} </time>
                       © Aldrich Lee.
-                    <a href="/resume">Resume</a>
+                    <a href="/"> home </a>
                     <style jsx>{`
                         a {
                         float: right;
