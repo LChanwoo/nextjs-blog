@@ -41,7 +41,10 @@ const config: DocsThemeConfig = {
   },
   feedback: {
     content: undefined
-  }
+  },
+  toc: {
+    float: true,
+  },
 }
 
 export default config
