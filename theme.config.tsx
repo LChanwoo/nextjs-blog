@@ -7,7 +7,12 @@ const meta = {
   image: '/images/22313.png'
 }
 const config: DocsThemeConfig = {
-  logo: <strong>Aldrich's Portfolio Blog</strong>,
+  logo: (
+    <>
+      <img src="/images/22313.png" alt="logo" style={{width:"24px",height:"24px"}}/>
+      <strong> Aldrich's Portfolio Blog</strong>
+    </>
+  ),
   project: {
     link: 'https://github.com/LChanwoo/nextjs-blog',
   },
@@ -31,6 +36,9 @@ const config: DocsThemeConfig = {
       <link rel="icon" href="/favicon1.ico" />
     </>
   ),
+  sidebar:{
+    defaultMenuCollapseLevel: 0,
+  }
 }
 
 export default config
