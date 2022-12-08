@@ -1,6 +1,6 @@
 export const articleCss ={
-    width:"calc(100%-650px)",
-    maxWidth:"900px",
+    width:"calc(100%-0px)",
+    maxWidth:"1000px",
     marginLeft:"auto",
     marginRight:"auto",
     backgroundColor:"white",
