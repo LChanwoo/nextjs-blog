@@ -6,8 +6,8 @@ export const articleCss ={
     backgroundColor:"white",
     paddingTop : "0px",
     paddingBottom : "50px",
-    paddingLeft : "20px",
-    paddingRight : "20px",
+    // paddingLeft : "20px",
+    // paddingRight : "20px",
     boxShadow: "0 0 10px 0 rgba(0,0,0,0.1)",
     borderRadius: "15px",
 
