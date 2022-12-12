@@ -3,7 +3,7 @@ import "react-notion/src/styles.css";
 import "prismjs/themes/prism-tomorrow.css";
 import React, { useState, useEffect } from 'react';
 import { NotionRenderer } from 'react-notion';
-import { articleCss } from "../css/article";
+import { articleCss, articleCss2 } from "../css/article";
 
 
 
@@ -18,7 +18,10 @@ export const RenderPage = ({NOTION_PAGE_ID})=>{
         });
     }, [])
     if(response === null){
-        return(<></>);   
+        return(            
+            <article style={articleCss2}>    
+            </article>
+    );   
     }
     return (
             <article style={articleCss}>    

@@ -1,10 +1,6 @@
-import Link from 'next/link';
-// import 'nextra-theme-blog/style.css'
 import "react-notion/src/styles.css";
 import "prismjs/themes/prism-tomorrow.css";
 import { NotionRenderer } from 'react-notion';
-// import { NotionRenderer, BlockMapType } from 'react-notion-x';
-// import { NotionAPI } from 'notion-client'
 
 export async function getStaticProps() {
     const NOTION_PAGE_ID = '160bea0ed31b4f53b1a497d5252906cb';
@@ -16,13 +12,6 @@ export async function getStaticProps() {
             blockMap: data
         }
     };
-    // const notion = new NotionAPI();
-    // const blockMap = await notion.getPage(NOTION_PAGE_ID);
-    // return {
-    //     props: {
-    //         blockMap
-    //     }
-    // }
 }
 
 export default ({ blockMap })=>{
@@ -31,7 +20,7 @@ export default ({ blockMap })=>{
             <article className="container prose prose-sm md:prose dark:prose-dark" style={{width:"calc(100%-650px)",maxWidth:"700px",marginLeft:"auto",marginRight:"auto"}}>
                 <div>
                     <h1>이력서</h1>        
-                    <NotionRenderer blockMap={blockMap} fullPage={false} />  
+                    <NotionRenderer blockMap={blockMap} fullPage={false} hideHeader={true} />  
                     <style jsx>{`
                         
                         p .notion-text {
