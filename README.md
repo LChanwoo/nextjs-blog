@@ -1,23 +1,30 @@
-# Nextra Docs Template 
+# Nextjs 블로그
 
-This is a template for creating documentation with [Nextra](https://nextra.site).
+---
 
-[**Live Demo →**](https://nextra-docs-template.vercel.app)
+주소 : https://aldrich-portfolio-blog2.vercel.app/
 
-[![](.github/screenshot.png)](https://nextra-docs-template.vercel.app)
+git 주소 : https://github.com/LChanwoo/nextjs-blog
 
-## Quick Start
+---
 
-Click the button to clone this repository and deploy it on Vercel:
 
-[![](https://vercel.com/button)](https://vercel.com/new/clone?s=https%3A%2F%2Fgithub.com%2Fshuding%2Fnextra-docs-template&showOptionalTeamCreation=false)
+# 프로젝트 목표
 
-## Local Development
+- nextjs의 기능을 이용한 블로그 제작
 
-First, run `pnpm i` to install the dependencies.
+- nextra 테마를 이용한 블로그 제작
 
-Then, run `pnpm dev` to start the development server and visit localhost:3000.
+- 관심분야에 대한 정리 및 기록
 
-## License
+# 사용된 기술
 
-This project is licensed under the MIT License.
+- nextjs
+
+- nextra
+
+- react
+
+- react-markdown
+
+- react-Notion
