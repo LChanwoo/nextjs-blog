@@ -2,10 +2,14 @@
     "introduction-portfolios":{
         "title":"Introduction"
     },
-    "BAROGO":{
-        "title":"BAROGO HOTEL Reservation website Project"
+    "Nextjs-blog":{
+        "title":"Nextjs-Blog"
     },
     "motto-maker":{
         "title":"Motto Maker"
+    },
+    "BAROGO":{
+        "title":"BAROGO hotel reservation website Project"
     }
+
 }
