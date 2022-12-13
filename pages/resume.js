@@ -1,36 +1,33 @@
 import "react-notion/src/styles.css";
-import "prismjs/themes/prism-tomorrow.css";
+// import "prismjs/themes/prism-tomorrow.css";
 import { NotionRenderer } from 'react-notion';
+import { useEffect, useState } from "react";
 
-export async function getStaticProps() {
-    const NOTION_PAGE_ID = '160bea0ed31b4f53b1a497d5252906cb';
-    const data = await fetch(
-        `https://notion-api.splitbee.io/v1/page/${NOTION_PAGE_ID}`
-    ).then(res => res.json());
-    return {
-        props: {
-            blockMap: data
-        }
-    };
-}
 
 export default ({ blockMap })=>{
     const YEAR = new Date().getFullYear();
+    const [response, setResponse] = useState({});
+    const NOTION_PAGE_ID = '160bea0ed31b4f53b1a497d5252906cb';
+    useEffect(() => {
+        fetch(`https://notion-api.splitbee.io/v1/page/${NOTION_PAGE_ID}`)
+        .then(res => res.json())
+        .then((resJson) => {
+            setResponse(resJson);
+        });
+    }, [])
+    if(response === null){
+        return(            
+            <article style={articleCss2}>    
+            </article>
+    );   
+    }
+
     return (
-            <article className="container prose prose-sm md:prose dark:prose-dark" style={{width:"calc(100%-650px)",maxWidth:"700px",marginLeft:"auto",marginRight:"auto"}}>
+            <article style={{width:"calc(100%-650px)",maxWidth:"700px",marginLeft:"auto",marginRight:"auto"}}>
                 <div>
                     <h1>이력서</h1>        
-                    <NotionRenderer blockMap={blockMap} fullPage={false} hideHeader={true} />  
-                    <style jsx>{`
-                        
-                        p .notion-text {
-                            margin-top: 1em;
-                            margin-bottom: 1em;
-                            
-                        }
-                        
-                        
-                    `}</style>
+                    <NotionRenderer blockMap={response} fullPage={false} hideHeader={true} />  
+
                 </div>
 
                 <small style={{display:"block",marginTop:"8rem"}}>
