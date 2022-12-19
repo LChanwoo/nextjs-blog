@@ -15,18 +15,12 @@ export default ({ blockMap })=>{
             setResponse(resJson);
         });
     }, [])
-    if(response === null){
-        return(            
-            <article style={articleCss2}>    
-            </article>
-    );   
-    }
 
     return (
             <article style={{width:"calc(100%-650px)",maxWidth:"700px",marginLeft:"auto",marginRight:"auto"}}>
                 <div>
                     <h1>이력서</h1>        
-                    <NotionRenderer blockMap={response} fullPage={false} hideHeader={true} />  
+                    { response && <NotionRenderer blockMap={response} fullPage={false} hideHeader={true} />  }
 
                 </div>
 
