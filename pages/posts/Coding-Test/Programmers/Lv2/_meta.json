@@ -4,5 +4,6 @@
     "farjump":"멀리뛰기",
     "function_develop":"기능개발",
     "news_clustering": "[1차] 뉴스 클러스터링",
-    "tuple":"튜플"
+    "tuple":"튜플",
+    "prime_count": "K진수에서 소수 개수 구하기"
 }
