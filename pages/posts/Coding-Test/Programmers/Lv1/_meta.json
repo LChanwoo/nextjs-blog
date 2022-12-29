@@ -1,6 +1,7 @@
 {
     "make_prime":"소수만들기",
     "lcm_gcd" : "최대공약수와 최소공배수",
-    "minimum_rectangle":"최소직사각형"
+    "minimum_rectangle":"최소직사각형",
+    "mymindstrsort":"문자열 내 마음대로 정렬하기"
 
 }
