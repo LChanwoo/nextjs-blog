@@ -1,5 +1,6 @@
 {
     "make_prime":"소수만들기",
-    "lcm_gcd" : "최대공약수와 최소공배수"
+    "lcm_gcd" : "최대공약수와 최소공배수",
+    "minimum_rectangle":"최소직사각형"
 
 }
