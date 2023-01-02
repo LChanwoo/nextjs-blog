@@ -4,5 +4,6 @@
     "minimum_rectangle":"최소직사각형",
     "mymindstrsort":"문자열 내 마음대로 정렬하기",
     "ponkemon":"폰켓몬",
-    "mock_test":"모의고사"
+    "mock_test":"모의고사",
+    "small_size_substring": "크기가 작은 부분문자열"
 }
