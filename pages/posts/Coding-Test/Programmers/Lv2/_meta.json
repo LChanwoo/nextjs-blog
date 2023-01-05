@@ -8,5 +8,6 @@
     "prime_count": "K진수에서 소수 개수 구하기",
     "open_chatting" : "오픈채팅방",
     "truck_passing_bridge": "다리를 지나는 트럭",
-    "skill_tree": "스킬트리"
+    "skill_tree": "스킬트리",
+    "cache":"[1차]캐시"
 }
