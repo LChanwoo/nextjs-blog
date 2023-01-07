@@ -7,6 +7,7 @@
     "mock_test":"모의고사",
     "small_size_substring": "크기가 작은 부분문자열",
     "failure_rate":"실패율",
-    "closest_same_char":"가장 가까운 같은 글자"
+    "closest_same_char":"가장 가까운 같은 글자",
+    "fruit_merchant":"과일장수"
 
 }
