@@ -9,6 +9,7 @@
     "failure_rate":"실패율",
     "closest_same_char":"가장 가까운 같은 글자",
     "fruit_merchant":"과일장수",
-    "babbling2":"옹알이(2)"
+    "babbling2":"옹알이(2)",
+    "devide_str":"문자열 나누기"
 
 }
