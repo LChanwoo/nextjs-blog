@@ -5,7 +5,7 @@ const YEAR = new Date().getFullYear();
 const meta = {
   title: '이찬우의 Next.js Blog',
   description: 'Next.js 포트폴리오 블로그',
-  image: '/images/22313.png'
+  image: '/images/me2.png'
 }
 const config: DocsThemeConfig = {
   logo: (
