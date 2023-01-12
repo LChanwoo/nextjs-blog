@@ -16,7 +16,8 @@ export default ({ blockMap })=>{
     }, [])
 
     return (
-            <article style={{width:"calc(100%-650px)",maxWidth:"700px",marginLeft:"auto",marginRight:"auto"}}>
+ 
+            <div style={{width:"calc(100%-650px)",maxWidth:"700px",marginLeft:"auto",marginRight:"auto"}}>
                 <div>
                     <h1 className="text-4xl font-extrabold p-5">이력서</h1>        
                     { response && <NotionRenderer blockMap={response} fullPage={false} hideHeader={true} />  }
@@ -45,7 +46,7 @@ export default ({ blockMap })=>{
                         
                     `}</style>
                 </small>
-            </article>
+            </div>
 
     )
 };
