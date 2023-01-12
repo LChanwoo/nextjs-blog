@@ -1,20 +1,62 @@
 import { Callout } from 'nextra-theme-docs'
- 
+import { ImageProvider } from '/components/ImageProvider'
+
 <Callout type="warning" emoji="⚠️">
   이 문서는 현재 작성중입니다.
 </Callout>
 
+<ImageProvider src={"/images/motto_example.png"}/>
+<ImageProvider src={"/images/motto_example2.png"}/>
 # 명언만들기 프로젝트
 주소 : https://motto-maker.vercel.app/
 
-git 주소 : 
+git 주소 : https://github.com/LChanwoo/Motto_Maker
 ## 명언만들기 프로젝트
 
 명언만들기 프로젝트는 다음과 같은 기능을 가지고 있습니다.
 
- - 명언을 랜덤으로 선택하여 이미지파일을 만들어 줍니다.
+ - 문장을 랜덤 또는 직접 선택하여 이미지파일 명언을 만듭니다.
  - 작성된 명언 이미지 파일을 저장할 수 있습니다.
 
 ## 명언만들기 프로젝트 구조
 
 명언만들기 프로젝트는 다음과 같은 구조를 가지고 있습니다.
+```
+📦src
+ ┣ 📂components
+ ┃ ┣ 📜header.tsx
+ ┃ ┗ 📜preview.tsx
+ ┣ 📂css_module
+ ┃ ┣ 📜choice.module.css
+ ┃ ┣ 📜common.module.css
+ ┃ ┣ 📜final.module.css
+ ┃ ┣ 📜intro.module.css
+ ┃ ┗ 📜nickname.module.css
+ ┣ 📂img
+ ┃ ┣ 📜arrow-left.png
+ ┃ ┣ 📜arrow.png
+ ┃ ┣ 📜logo_124.png
+ ┃ ┗ 📜moto_logo_15px.png
+ ┣ 📂pages
+ ┃ ┣ 📜choice.tsx
+ ┃ ┣ 📜final.tsx
+ ┃ ┣ 📜intro.tsx
+ ┃ ┗ 📜nickName.tsx
+ ┣ 📂tags
+ ┃ ┣ 📜Tags1.ts
+ ┃ ┣ 📜Tags2.ts
+ ┃ ┣ 📜Tags3.ts
+ ┃ ┣ 📜Tags4.ts
+ ┃ ┗ 📜nextTagFinder.ts
+ ┣ 📜.DS_Store
+ ┣ 📜App.css
+ ┣ 📜App.test.tsx
+ ┣ 📜App.tsx
+ ┣ 📜TextInput.tsx
+ ┣ 📜index.css
+ ┣ 📜index.tsx
+ ┣ 📜react-app-env.d.ts
+ ┣ 📜reportWebVitals.ts
+ ┣ 📜scale.module.css
+ ┗ 📜setupTests.ts
+ ```

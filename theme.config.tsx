@@ -1,6 +1,7 @@
 import React from 'react'
 import { DocsThemeConfig, useConfig } from 'nextra-theme-docs'
 import { useRouter } from 'next/router';
+import { FooterComponent } from './components/Footer';
 const YEAR = new Date().getFullYear();
 const meta = {
   title: '이찬우의 Next.js Blog',
@@ -22,7 +23,7 @@ const config: DocsThemeConfig = {
   // },
   docsRepositoryBase: 'https://github.com/LChanwoo/nextjs-blog/tree/main/',
   footer: {
-    text: `${YEAR}@Chanwoo Aldrich Lee, All rights reserved.`,
+    text: <FooterComponent/>,
   },
   head: ()=>{
     const { asPath } = useRouter()
