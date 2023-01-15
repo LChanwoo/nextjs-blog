@@ -1,4 +1,8 @@
 {
+    "---1":"# javascript #" ,
+    "---5":{
+        "type":"separator"
+    },
     "make_prime":"소수만들기",
     "lcm_gcd" : "최대공약수와 최소공배수",
     "minimum_rectangle":"최소직사각형",
@@ -10,6 +14,21 @@
     "closest_same_char":"가장 가까운 같은 글자",
     "fruit_merchant":"과일장수",
     "babbling2":"옹알이(2)",
-    "devide_str":"문자열 나누기"
+    "devide_str":"문자열 나누기",
 
+
+
+
+
+
+    "---2":{
+        "type":"separator"
+    },
+    "---3":"# Mysql #" ,
+    "---4":{
+        "type":"separator"
+    },
+    "top_n_record": "상위 n개 레코드",
+    "find_young_animal":"어린동물 찾기",
+    "animal_name_id":"동물의 이름과 아이디"
 }
