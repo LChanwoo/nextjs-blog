@@ -1,0 +1,23 @@
+{
+    "---1":"# javascript #" ,
+    "---5":{
+        "type":"separator"
+    },
+
+    "---2":{
+        "type":"separator"
+    },
+    "---3":"# Mysql #" ,
+    "---4":{
+        "type":"separator"
+    },
+    "longtimeprotectedanimal1": "오랜기간 보호한 동물(1)",
+    "longtimeprotectedanimal2": "오랜기간 보호한 동물(2)",
+    "itwashereitwasnthere":"있었는데요 없었습니다",
+    "disappearedtext": "없어진 기록 찾기",
+    "classifyandprintorderstatus":"조건별로 분류하여 주문상태 출력하기",
+    "favoritekingrestaurant":"즐겨찾기가 가장 많은 식장 정보 출력하기",
+    "categorybooksoldlist":"카테고리별 도서 판매량 집계하기",
+    "heavyusersplace":"헤비 유저가 소유한 장소",
+    "monthlyrentalking":"대여 횟수가 많은 자동차의 월별 대여 횟수 구하기"
+}
