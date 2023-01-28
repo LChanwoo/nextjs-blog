@@ -10,6 +10,7 @@
     "truck_passing_bridge": "다리를 지나는 트럭",
     "skill_tree": "스킬트리",
     "cache":"[1차]캐시",
-    "discount_event":"할인 행사"
+    "discount_event":"할인 행사",
+    "m1":"N개의 최소공배수"
     
 }
