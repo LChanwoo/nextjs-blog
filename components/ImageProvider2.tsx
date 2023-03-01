@@ -10,8 +10,8 @@ export const ImageProvider2 = ({ src }) => {
             <Image
                 src={src}
                 alt="profile"
-                width={600}
-                height={500}
+                width={768}
+                height={768}
                 className="justify-center items-center w-fit p-5"
             />
         </>
